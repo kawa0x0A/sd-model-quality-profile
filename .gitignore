@@ -1,0 +1,55 @@
+# ========================================
+# Python
+# ========================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# ========================================
+# OS / Editor
+# ========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+.vscode/
+.idea/
+
+# ========================================
+# Logs / cache
+# ========================================
+*.log
+*.tmp
+*.bak
+
+# ========================================
+# Stable Diffusion WebUI specific
+# ========================================
+# User local configs / runtime data
+local/
+cache/
+outputs/
+
+# If you create local test profiles
+profiles.local.json
+
+# ========================================
+# Build / distribution
+# ========================================
+dist/
+build/
+*.egg-info/
+
+# ========================================
+# Secrets (just in case)
+# ========================================
+.env
+.env.*
